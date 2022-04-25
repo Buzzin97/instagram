@@ -2,18 +2,28 @@
 <html> 
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     </head> 
     <body>
-        <div>
-           
+        <div id="top">
          <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png">
-         <input type="search" value="검색"/>
+         <input type="search" value="🔍검색"/>
+         <div>
+            <i class="fas fa-home"></i>
+            <i class="far fa-paper-plane"></i>
+            <i class="far fa-compass"></i>
+            <i class="far fa-heart"></i>
+        </div>
         </div>
         <div id="profile">
-           <img src="image/profile.png" width="50px">
-        <div>
-            <h2>Buzzin_97</h2>
-            <button>프로필 편집</button>
+           <div id="profile_pic">
+               <img src="image/profile.png"  class=circle_pic>
+            </div>
+            <div id="profile_info">
+            <div id="name">Buzzin_97
+                <i class="fas fa-cog"></i>
+            </div>
+            <button class="button">프로필 편집</button>
         </div>
     </div>
     <div>
@@ -27,46 +37,61 @@
             <a href="https://github.com/agidaegi/instagram.git">github.agidaegi</a>
         </p>
         </div>
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
+             <div class="highlight_pic">
+                <img src="image/h1.jpg" class=circle_pic>
+            </div>
             <div>
-                <img src="image/h1.jpg" height="35px">
-            </div>
-            <div >
                 😍               
-            </div>
-            <div class="highlight"></div>
-            <div> 
-                <img src="image/h2.jpg" height="35px">
+          </div>
+        </div>
+            <div class="highlight">
+            <div class="highlight_pic"> 
+                <img src="image/h2.jpg" class=circle_pic>
             </div>
             <div>
                 😘               
-            </div>
         </div>
+      </div>
+      <div></div>
+    </div>
         <div>
-            <div>게시물<br/>
-                 6
+            <div id="stat_bar">
+            <div class="stat">
+                게시물<br/>
+                6
             </div>
-            <div>
+            <div class="stat">
                 팔로워<br/>
                 124
            </div>
-           <div>
+           <div class="stat">
                팔로우<br/>
                 88
-       </div>
+           </div>
+        </div>
+            <div class="selected">
+               <i class="fas fa-border-all"></i>
+               <i class="fas fa-film"></i>
+               <i class="far fa-play-circle"></i>
+               <i class="far fa-bookmark"></i>
+               <i class="fas fa-user-tag"></i>
+           </div>
         </div>
         <div>
-            
-            <img src="image/thumnails/h3.jpg" width="32%"/>
-            <img src="image/thumnails/h4.jpg" width="32%"/>
-            <img src="image/thumnails/h5.jpg" width="32%"/>
-            <img src="image/thumnails/h6.jpg" width="32%"/>
-            <img src="image/thumnails/h7.jpg" width="32%"/>
-            <img src="image/thumnails/h8.jpg" width="32%"/>
-          
+            <div class="thumbnail_grid">
+            <img src="image/thumnails/h3.jpg" class="thumbnail">
+            <img src="image/thumnails/h4.jpg" class="thumbnail">
+            <img src="image/thumnails/h5.jpg" class="thumbnail">
+            </div>
+            <div class="thumbnail_grid">
+            <img src="image/thumnails/h6.jpg" class="thumbnail">
+            <img src="image/thumnails/h7.jpg" class="thumbnail">
+            <img src="image/thumnails/h8.jpg" class="thumbnail">
+            </div>
         </div>
-        <div>아이콘이 들어갈 자리</div>
+        
         <div>게시물 썸네일이 들어갈 자리</div>
     </body>    
 </html>
