@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html> 
     <head>
+        <script src="script1.js"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     </head> 
@@ -20,20 +21,21 @@
                <img src="image/profile.png"  class=circle_pic>
             </div>
             <div id="profile_info">
-            <div id="name">Buzzin_97
+            <div id="name">
+                <span>Buzzin_97</span>
                 <i class="fas fa-cog"></i>
             </div>
-            <button class="button">프로필 편집</button>
+            <button id="profile_info button">프로필 편집</button>
         </div>
     </div>
     <div>
         <p>
-            <strong>
+            <strong id="userInfo">
                 박세진(Park_sejin)
             </strong><br/>
-        프론트엔드
+            <span id="summary">프론트엔드</span>
         </p>
-        <p>
+        <p id="profileDetail">
             <a href="https://github.com/agidaegi/instagram.git">github.agidaegi</a>
         </p>
         </div>
@@ -92,6 +94,6 @@
             </div>
         </div>
         
-        <div>게시물 썸네일이 들어갈 자리</div>
+        <div></div>
     </body>    
 </html>
